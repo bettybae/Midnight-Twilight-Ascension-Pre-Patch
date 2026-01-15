@@ -1,0 +1,14 @@
+## Interface: 120000
+## Title: Pre-Patch Helper
+## Title-ruRU: Помощник по пре-патчу
+## Notes: Midnight Twilight Ascension Pre-Patch Event
+## Notes-ruRU: Событие пре-патча Сумеречное вознесение
+## Author: ZamestoTV
+## IconTexture: Interface\AddOns\ZamestoTV_PrePath\goblin
+## Version: 1.4.2
+## SavedVariables: PrePathDB
+
+## Category-enUS: Addons ZamestoTV
+## Category-ruRU: Аддоны ZamestoTV
+
+PrePath.lua
