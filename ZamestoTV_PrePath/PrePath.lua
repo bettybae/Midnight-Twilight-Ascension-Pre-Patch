@@ -17,30 +17,31 @@ PrePathData.CURRENCY_ICON = 7195171
 PrePathData.INTERVAL = 600
 
 PrePathData.RARES = {
-    { criteriaID=105744, vignetteID=7007,  name={ru="Красноглаз Черепоглод",en="Redeye the Skullchewer"} },
-    { criteriaID=105729, vignetteID=7043,  name={ru="Т'аавихан Освобожденный",en="T'aavihan the Unbound"} },
-    { criteriaID=105732, vignetteID=6995,  name={ru="Скат Гнили",en="Ray of Putrescence"} },
-    { criteriaID=105736, vignetteID=6997,  name={ru="Икс Кровопадший",en="Ix the Bloodfallen"} },	
-    { criteriaID=105739, vignetteID=6998,  name={ru="Командир Икс'ваарта",en="Commander Ix'vaarha"} },	
-    { criteriaID=105742, vignetteID=7004,  name={ru="Шарфади Бастион Ночи",en="Sharfadi, Bulwark of the Night"} },	
-    { criteriaID=105745, vignetteID=7001,  name={ru="Из'Хаадош Лиминал",en="Ez'Haadosh the Liminality"} },	
-    { criteriaID=105727, vignetteID=6755,  name={ru="Берг Чаробой",en="Berg the Spellfist"} },
-    { criteriaID=105730, vignetteID=6761,  name={ru="Глашатай сумрака Корла",en="Corla, Herald of Twilight"} },	
-    { criteriaID=105733, vignetteID=6988,  name={ru="Ревнительница Бездны Девинда",en="Void Zealot Devinda"} },	
-    { criteriaID=105737, vignetteID=6994,  name={ru="Азира Убийца Зари",en="Asira Dawnslayer"} },	
-    { criteriaID=105740, vignetteID=6996,  name={ru="Архиепископ Бенедикт",en="Archbishop Benedictus"} },
-    { criteriaID=105743, vignetteID=7008,  name={ru="Недранд Глазоед",en="Nedrand the Eyegorger"} },
-    { criteriaID=105728, vignetteID=7042,  name={ru="Палач Линтельма",en="Executioner Lynthelma"} },
-    { criteriaID=105731, vignetteID=7005,  name={ru="Густаван Глашатай Финала",en="Gustavan, Herald of the End"} },
-    { criteriaID=105734, vignetteID=7009,  name={ru="Коготь Бездны – проклинарий",en="Voidclaw Hexathor"} },
-    { criteriaID=105738, vignetteID=7006,  name={ru="Зеркалвайз",en="Mirrorvise"} },
-    { criteriaID=105741, vignetteID=7003,  name={ru="Салигрум Наблюдатель",en="Saligrum the Observer"} },
-    { criteriaID=109583, name={ru="Глас Затмения",en="Voice of the Eclipse"}, noTimer=true },
+    { criteriaID=105744, vignetteID=7007,  name={ru="Красноглаз Черепоглод",en="Redeye the Skullchewer",de="Rotauge der Schädelbeißer"} },
+    { criteriaID=105729, vignetteID=7043,  name={ru="Т'аавихан Освобожденный",en="T'aavihan the Unbound",de="T'aavihan der Ungebundene"} },
+    { criteriaID=105732, vignetteID=6995,  name={ru="Скат Гнили",en="Ray of Putrescence",de="Fäulnisstrahl"} },
+    { criteriaID=105736, vignetteID=6997,  name={ru="Икс Кровопадший",en="Ix the Bloodfallen",de="Ix der Blutgefallene"} },	
+    { criteriaID=105739, vignetteID=6998,  name={ru="Командир Икс'ваарта",en="Commander Ix'vaarha",de="Kommandant Ix'vaarha"} },	
+    { criteriaID=105742, vignetteID=7004,  name={ru="Шарфади Бастион Ночи",en="Sharfadi, Bulwark of the Night",de="Sharfadi, Bollwerk der Nacht"} },	
+    { criteriaID=105745, vignetteID=7001,  name={ru="Из'Хаадош Лиминал",en="Ez'Haadosh the Liminality",de="Ez'Haadosh die Liminalität"} },	
+    { criteriaID=105727, vignetteID=6755,  name={ru="Берг Чаробой",en="Berg the Spellfist",de="Berg die Zauberfaust"} },
+    { criteriaID=105730, vignetteID=6761,  name={ru="Глашатай сумрака Корла",en="Corla, Herald of Twilight",de="Corla, Botin des Zwielichts"} },	
+    { criteriaID=105733, vignetteID=6988,  name={ru="Ревнительница Бездны Девинда",en="Void Zealot Devinda",de="Leerenzelotin Devinda"} },	
+    { criteriaID=105737, vignetteID=6994,  name={ru="Азира Убийца Зари",en="Asira Dawnslayer",de="Asira Dämmerschlächter"} },	
+    { criteriaID=105740, vignetteID=6996,  name={ru="Архиепископ Бенедикт",en="Archbishop Benedictus",de="Erzbischof Benedictus"} },
+    { criteriaID=105743, vignetteID=7008,  name={ru="Недранд Глазоед",en="Nedrand the Eyegorger",de="Nedrand der Augenschlinger"} },
+    { criteriaID=105728, vignetteID=7042,  name={ru="Палач Линтельма",en="Executioner Lynthelma",de="Scharfrichterin Lynthelma"} },
+    { criteriaID=105731, vignetteID=7005,  name={ru="Густаван Глашатай Финала",en="Gustavan, Herald of the End",de="Gustavan, Herold des Untergangs"} },
+    { criteriaID=105734, vignetteID=7009,  name={ru="Коготь Бездны – проклинарий",en="Voidclaw Hexathor",de="Leerenklaue Hexathor"} },
+    { criteriaID=105738, vignetteID=7006,  name={ru="Зеркалвайз",en="Mirrorvise",de="Spiegelzwicker"} },
+    { criteriaID=105741, vignetteID=7003,  name={ru="Салигрум Наблюдатель",en="Saligrum the Observer", de="Saligrum der Beobachter"} },
+    { criteriaID=109583, name={ru="Глас Затмения",en="Voice of the Eclipse",de="Stimme der Finsternis"}, noTimer=true },
 }
 
 PrePathData.CHAT_TRIGGERS = {
     ru = { "Сектанты Сумеречного Клинка призывают подкрепление. Убейте предводителей ритуалистов!" },
-    en = { "The Twilight's Blade have begun summoning more forces. Defeat their ritual leaders!" }
+    en = { "The Twilight's Blade have begun summoning more forces. Defeat their ritual leaders!" },
+    de = { "Die Zwielichtklinge hat begonnen, weitere Truppen herbeizurufen. Besiegt ihre Ritualleiter!" }
 }
 
 ------------------------------------------------------------
@@ -58,7 +59,7 @@ PrePathFrame.chatTriggerTime = nil
 -- UTILS
 ------------------------------------------------------------
 local function GetLocaleString()
-    return GetLocale() == "ruRU" and "ru" or "en"
+        return GetLocale() == "ruRU" and "ru" or "deDE" and "de" or "en"
 end
 
 local function FormatTime(seconds)
@@ -307,7 +308,7 @@ C_Timer.NewTicker(1, function()
     local currentTime = time()
     local currencyInfo = C_CurrencyInfo.GetCurrencyInfo(PrePathData.CURRENCY_ID)
     currencyText:SetText(currencyInfo and currencyInfo.quantity or 0)
-    endText:SetText((GetLocaleString()=="ru" and "До конца: " or "Ends in: ") .. FormatTime(PrePathData.EVENT_END - currentTime))
+    endText:SetText((GetLocaleString()=="ru" and "До конца: " or GetLocaleString()=="de" and "Endet in: " or "Ends in: ") .. FormatTime(PrePathData.EVENT_END - currentTime))
     PrePathFrame:UpdateRows()
 end)
 
