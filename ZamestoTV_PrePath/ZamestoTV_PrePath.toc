@@ -5,7 +5,7 @@
 ## Notes-ruRU: Событие пре-патча Сумеречное вознесение
 ## Author: ZamestoTV
 ## IconTexture: Interface\AddOns\ZamestoTV_PrePath\goblin
-## Version: 1.5.9
+## Version: 1.6.2
 ## SavedVariables: PrePathDB
 
 ## Category-enUS: Addons ZamestoTV
@@ -13,3 +13,4 @@
 
 PrePath.lua
 TomTom.lua
+TicTacHints.lua
