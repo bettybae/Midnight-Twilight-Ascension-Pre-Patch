@@ -195,22 +195,36 @@ local function CreateCell(i)
     b.icon:SetPoint("CENTER")
     b.icon:Hide()
 
-    b:SetScript("OnClick", function()
-        if board[i] ~= 0 or not playerFaction then return end
+b:SetScript("OnClick", function()
+    if board[i] ~= 0 or not playerFaction then return end
 
-        ClearHints()
+    ClearHints()
 
-        if IsPlayerTurn() then
-            board[i] = 1
-            b.icon:SetTexture(ICONS[playerFaction])
-            b.icon:Show()
-        else
-            board[i] = 2
-            b.icon:SetTexture(ICONS[enemyFaction])
-            b.icon:Show()
-            ShowHint()
+    if IsPlayerTurn() then
+        -- Ход игрока
+        board[i] = 1
+        b.icon:SetTexture(ICONS[playerFaction])
+        b.icon:Show()
+        -- Проверка победителя
+        if CheckWinner(board) then
+            ClearBoard()
+            return
         end
-    end)
+        -- После хода игрока — ждём ход врага, подсказку не показываем
+    else
+        -- Ход противника
+        board[i] = 2
+        b.icon:SetTexture(ICONS[enemyFaction])
+        b.icon:Show()
+        -- Проверка победителя
+        if CheckWinner(board) then
+            ClearBoard()
+            return
+        end
+        -- После хода врага — показываем подсказку
+        ShowHint()
+    end
+end)
 
     cells[i]=b
 end
