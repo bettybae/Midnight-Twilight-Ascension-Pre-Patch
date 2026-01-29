@@ -14,28 +14,28 @@ PrePathData.ACHIEVEMENT_ID = 42300
 PrePathData.EVENT_END = 1772492400
 PrePathData.CURRENCY_ID = 3319
 PrePathData.CURRENCY_ICON = 7195171
-PrePathData.INTERVAL = 600
+PrePathData.INTERVAL = 300
 
 PrePathData.RARES = {
-    { criteriaID=105744, vignetteID=7007,  name={ru="Красноглаз Черепоглод", en="Redeye the Skullchewer", de="Rotauge der Schädelbeißer", zh="啃颅者・红眼"}, x=0.650, y=0.526 },
-    { criteriaID=105729, vignetteID=7043,  name={ru="Т'аавихан Освобожденный", en="T'aavihan the Unbound", de="T'aavihan der Ungebundene", zh="解缚者・塔阿维汉"}, x=0.576, y=0.756 },
-    { criteriaID=105732, vignetteID=6995,  name={ru="Скат Гнили", en="Ray of Putrescence", de="Fäulnisstrahl", zh="腐秽之辉"}, x=0.710, y=0.299 },
-    { criteriaID=105736, vignetteID=6997,  name={ru="Икс Кровопадший", en="Ix the Bloodfallen", de="Ix der Blutgefallene", zh="血陨者 伊克斯"}, x=0.467, y=0.252 },
-    { criteriaID=105739, vignetteID=6998,  name={ru="Командир Икс'ваарта", en="Commander Ix'vaarha", de="Kommandant Ix'vaarha", zh="指挥官 伊克斯瓦尔哈"}, x=0.452, y=0.488 },
-    { criteriaID=105742, vignetteID=7004,  name={ru="Шарфади Бастион Ночи", en="Sharfadi, Bulwark of the Night", de="Sharfadi, Bollwerk der Nacht", zh="夜之壁垒・沙法迪"}, x=0.418, y=0.165 },
-    { criteriaID=105745, vignetteID=7001,  name={ru="Из'Хаадош Лиминал", en="Ez'Haadosh the Liminality", de="Ez'Haadosh die Liminalität", zh="埃兹哈多什・临界"}, x=0.652, y=0.522 },
-    { criteriaID=105727, vignetteID=6755,  name={ru="Берг Чаробой", en="Berg the Spellfist", de="Berg die Zauberfaust", zh="咒拳师伯格"}, x=0.576, y=0.756 },
-    { criteriaID=105730, vignetteID=6761,  name={ru="Глашатай сумрака Корла", en="Corla, Herald of Twilight", de="Corla, Botin des Zwielichts", zh="柯尔拉-暮光之兆"}, x=0.712, y=0.299 },
-    { criteriaID=105733, vignetteID=6988,  name={ru="Ревнительница Бездны Девинда", en="Void Zealot Devinda", de="Leerenzelotin Devinda", zh="虚空狂热者・德文达"}, x=0.468, y=0.248 },
-    { criteriaID=105737, vignetteID=6994,  name={ru="Азира Убийца Зари", en="Asira Dawnslayer", de="Asira Dämmerschlächter", zh="埃希拉-黎明克星"}, x=0.452, y=0.492 },
-    { criteriaID=105740, vignetteID=6996,  name={ru="Архиепископ Бенедикт", en="Archbishop Benedictus", de="Erzbischof Benedictus", zh="大主教本尼迪塔斯"}, x=0.426, y=0.176 },
-    { criteriaID=105743, vignetteID=7008,  name={ru="Недранд Глазоед", en="Nedrand the Eyegorger", de="Nedrand der Augenschlinger", zh="噬眼者・内德兰"}, x=0.654, y=0.530 },
-    { criteriaID=105728, vignetteID=7042,  name={ru="Палач Линтельма", en="Executioner Lynthelma", de="Scharfrichterin Lynthelma", zh="刽子手 林塞尔玛"}, x=0.576, y=0.756 },
-    { criteriaID=105731, vignetteID=7005,  name={ru="Густаван Глашатай Финала", en="Gustavan, Herald of the End", de="Gustavan, Herold des Untergangs", zh="终末使者 古斯塔万"}, x=0.712, y=0.316 },
-    { criteriaID=105734, vignetteID=7009,  name={ru="Коготь Бездны – проклинарий", en="Voidclaw Hexathor", de="Leerenklaue Hexathor", zh="虚空之爪・赫克萨索尔"}, x=0.466, y=0.254 },
-    { criteriaID=105738, vignetteID=7006,  name={ru="Зеркалвайз", en="Mirrorvise", de="Spiegelzwicker", zh="镜钳"}, x=0.452, y=0.490 },
-    { criteriaID=105741, vignetteID=7003,  name={ru="Салигрум Наблюдатель", en="Saligrum the Observer", de="Saligrum der Beobachter", zh="观察者・萨利格鲁姆"}, x=0.426, y=0.176 },
-    { criteriaID=109583, name={ru="Глас Затмения", en="Voice of the Eclipse", de="Stimme der Finsternis", zh="蚀之音"}, noTimer=true },
+    { criteriaID=105744, vignetteID=7007,  name={ru="Красноглаз Черепоглод", en="Redeye the Skullchewer", de="Rotauge der Schädelbeißer", zh="嚼颅者赤目", fr="Yeux-Rouges, le Mâchonneur de crânes"}, x=0.650, y=0.526 },
+    { criteriaID=105729, vignetteID=7043,  name={ru="Т'аавихан Освобожденный", en="T'aavihan the Unbound", de="T'aavihan der Ungebundene", zh="无拘者塔维汉", fr="T'aavihan le Délié"}, x=0.576, y=0.756 },
+    { criteriaID=105732, vignetteID=6995,  name={ru="Скат Гнили", en="Ray of Putrescence", de="Fäulnisstrahl", zh="腐烂之鳐", fr="Raie de putrescence"}, x=0.710, y=0.299 },
+    { criteriaID=105736, vignetteID=6997,  name={ru="Икс Кровопадший", en="Ix the Bloodfallen", de="Ix der Blutgefallene", zh="滴血者伊斯", fr="Ix le Déchu sanglant"}, x=0.467, y=0.252 },
+    { criteriaID=105739, vignetteID=6998,  name={ru="Командир Икс'ваарта", en="Commander Ix'vaarha", de="Kommandant Ix'vaarha", zh="指挥官伊斯瓦拉哈", fr="Commandant Ix'vaarha"}, x=0.452, y=0.488 },
+    { criteriaID=105742, vignetteID=7004,  name={ru="Шарфади Бастион Ночи", en="Sharfadi, Bulwark of the Night", de="Sharfadi, Bollwerk der Nacht", zh="沙法蒂，玄夜壁垒", fr="Sharfadi, Rempart de la Nuit"}, x=0.418, y=0.165 },
+    { criteriaID=105745, vignetteID=7001,  name={ru="Из'Хаадош Лиминал", en="Ez'Haadosh the Liminality", de="Ez'Haadosh die Liminalität", zh="阈限者艾兹哈多沙", fr="Ez'Haadosh la Liminalité"}, x=0.652, y=0.522 },
+    { criteriaID=105727, vignetteID=6755,  name={ru="Берг Чаробой", en="Berg the Spellfist", de="Berg die Zauberfaust", zh="法术拳师贝格", fr="Berg le Sorcepoing"}, x=0.576, y=0.756 },
+    { criteriaID=105730, vignetteID=6761,  name={ru="Глашатай сумрака Корла", en="Corla, Herald of Twilight", de="Corla, Botin des Zwielichts", zh="柯尔拉，暮光之兆", fr="Coria, héraut du Crépuscule"}, x=0.712, y=0.299 },
+    { criteriaID=105733, vignetteID=6988,  name={ru="Ревнительница Бездны Девинда", en="Void Zealot Devinda", de="Leerenzelotin Devinda", zh="虚空狂热者德文达", fr="Zélote du Vide Devinda"}, x=0.468, y=0.248 },
+    { criteriaID=105737, vignetteID=6994,  name={ru="Азира Убийца Зари", en="Asira Dawnslayer", de="Asira Dämmerschlächter", zh="埃希拉·黎明克星", fr="Asira Fauchelaube"}, x=0.452, y=0.492 },
+    { criteriaID=105740, vignetteID=6996,  name={ru="Архиепископ Бенедикт", en="Archbishop Benedictus", de="Erzbischof Benedictus", zh="大主教本尼迪塔斯", fr="Archevêque Benedictus"}, x=0.426, y=0.176 },
+    { criteriaID=105743, vignetteID=7008,  name={ru="Недранд Глазоед", en="Nedrand the Eyegorger", de="Nedrand der Augenschlinger", zh="凿目者内德兰德", fr="Nedrand l'Énucléeur"}, x=0.654, y=0.530 },
+    { criteriaID=105728, vignetteID=7042,  name={ru="Палач Линтельма", en="Executioner Lynthelma", de="Scharfrichterin Lynthelma", zh="处决者林瑟尔玛", fr="Exécuteur Lynthelma"}, x=0.576, y=0.756 },
+    { criteriaID=105731, vignetteID=7005,  name={ru="Густаван Глашатай Финала", en="Gustavan, Herald of the End", de="Gustavan, Herold des Untergangs", zh="古斯塔梵，终末使徒", fr="Gustavan, Héraut de la fin"}, x=0.712, y=0.316 },
+    { criteriaID=105734, vignetteID=7009,  name={ru="Коготь Бездны – проклинарий", en="Voidclaw Hexathor", de="Leerenklaue Hexathor", zh="虚爪妖兽", fr="Griffe-du-Vide Hexathor"}, x=0.466, y=0.254 },
+    { criteriaID=105738, vignetteID=7006,  name={ru="Зеркалвайз", en="Mirrorvise", de="Spiegelzwicker", zh="镜影魔", fr="Pincemirroir"}, x=0.452, y=0.490 },
+    { criteriaID=105741, vignetteID=7003,  name={ru="Салигрум Наблюдатель", en="Saligrum the Observer", de="Saligrum der Beobachter", zh="观察者萨利格鲁姆", fr="Saligrum l'Observateur"}, x=0.426, y=0.176 },
+    { criteriaID=109583, name={ru="Глас Затмения", en="Voice of the Eclipse", de="Stimme der Finsternis", zh="蚀变之声", fr="La Voix de l'Éclipse"}, noTimer=true },
 }
 
 PrePathData.CHAT_TRIGGERS = {
@@ -49,7 +49,10 @@ PrePathData.CHAT_TRIGGERS = {
         "Die Zwielichtklinge hat begonnen, weitere Truppen herbeizurufen. Besiegt ihre Ritualleiter!"
     },
     zh = {
-        "暮光之刃已然开始召唤更多援军，剿灭其仪式主祭！"
+        "暮光之刃已经开始召唤援军。击败他们的仪式首领!！"
+    },
+    fr = {
+        "La Lame du Crépuscule commence à invoquer davantage de troupes. Éliminez les personnes qui dirigent le rituel !"
     }
 }
 
@@ -74,8 +77,14 @@ local function GetLocaleString()
         return "ru"
     elseif locale == "deDE" then
         return "de"
+    elseif locale == "esES" then
+        return "es"
+    elseif locale == "frFR" then
+        return "fr"
     elseif locale == "zhCN" then
         return "zh"
+    elseif locale == "zhTW" then
+        return "zhTW"
     else
         return "en"
     end
@@ -195,7 +204,7 @@ row.mapButton:SetScript("OnClick", function()
     local y = r.y
 
     if not x or not y then
-        print("|cffFF0000PrePath|r: Coordinates missing for "..(r.name[GetLocaleString()] or "unknown"))
+        print("|cffFF0000Pre-Patch|r: Coordinates missing for "..(r.name[GetLocaleString()] or "unknown"))
         return
     end
 
@@ -375,8 +384,8 @@ end)
 ------------------------------------------------------------
 -- SLASH
 ------------------------------------------------------------
-SLASH_PREPATH1 = "/prepath"
-SlashCmdList["PREPATH"] = function(message)
+SLASH_PREPATCH1 = "/prepatch"
+SlashCmdList["PREPATCH"] = function(message)
     if message == "check" then
         PrePathFrame:StartPollingDelayed()
     else
