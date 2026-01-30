@@ -383,23 +383,40 @@ function PrePathFrame:StartPollingDelayed()
 end
 
 ------------------------------------------------------------
--- CHAT HANDLER
+-- CHAT HANDLER (FIXED)
 ------------------------------------------------------------
-function PrePathFrame:HandleChatMessage(text)
-    if not text then return end
+function PrePathFrame:HandleChatEvent(event, text)
+    if type(text) ~= "string" then return end
 
-    for _, trigger in ipairs(PrePathData.CHAT_TRIGGERS[GetLocaleString()]) do
+    local localeKey = GetLocaleString()
+    local triggers = PrePathData.CHAT_TRIGGERS[localeKey]
+        or PrePathData.CHAT_TRIGGERS.en
+
+    if not triggers then return end
+
+    for _, trigger in ipairs(triggers) do
         if string.find(text, trigger, 1, true) then
-            PrePathFrame:StartPollingDelayed()
+            self:StartPollingDelayed()
             return
         end
     end
 end
 
-PrePathFrame.CHAT_MSG_MONSTER_SAY = PrePathFrame.HandleChatMessage
-PrePathFrame.CHAT_MSG_MONSTER_YELL = PrePathFrame.HandleChatMessage
-PrePathFrame.CHAT_MSG_MONSTER_EMOTE = PrePathFrame.HandleChatMessage
-PrePathFrame.CHAT_MSG_RAID_BOSS_EMOTE = PrePathFrame.HandleChatMessage
+function PrePathFrame:CHAT_MSG_MONSTER_SAY(event, text)
+    self:HandleChatEvent(event, text)
+end
+
+function PrePathFrame:CHAT_MSG_MONSTER_YELL(event, text)
+    self:HandleChatEvent(event, text)
+end
+
+function PrePathFrame:CHAT_MSG_MONSTER_EMOTE(event, text)
+    self:HandleChatEvent(event, text)
+end
+
+function PrePathFrame:CHAT_MSG_RAID_BOSS_EMOTE(event, text)
+    self:HandleChatEvent(event, text)
+end
 
 ------------------------------------------------------------
 -- MAIN LOOP
