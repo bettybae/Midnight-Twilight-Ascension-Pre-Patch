@@ -49,7 +49,7 @@ PrePathData.CHAT_TRIGGERS = {
         "Die Zwielichtklinge hat begonnen, weitere Truppen herbeizurufen. Besiegt ihre Ritualleiter!"
     },
     fr = {
-        "La Lame du Crépuscule commence à invoquer davantage de troupes. Éliminez les personnes qui dirigent le rituel !"
+        "La Lame du Crépuscule commence à invoquer davantage de troupes. Éliminez les personnes qui dirigent le rituel !"
     },
     zh = {
         "暮光之刃已经开始召唤援军。击败他们的仪式首领！"
@@ -64,7 +64,6 @@ PrePathData.CHAT_TRIGGERS = {
         "La Daga Crepuscular ha comenzado a invocar más fuerzas. ¡Derrota a los líderes del ritual!"
     }
 }
-
 ------------------------------------------------------------
 -- STATE
 ------------------------------------------------------------
@@ -444,5 +443,6 @@ SlashCmdList["PREPATCH"] = function(message)
         frame:SetShown(not frame:IsShown())
     end
 end
+
 
 
